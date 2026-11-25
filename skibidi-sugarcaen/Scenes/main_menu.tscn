@@ -145,4 +145,5 @@ offset_bottom = 300.0
 text = "Made with 💖 by PixelatedPancake"
 label_settings = SubResource("LabelSettings_v5gy4")
 
+[connection signal="pressed" from="Button Manager/VBoxContainer/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Button Manager/VBoxContainer/Quit" to="." method="_on_quit_pressed"]
